@@ -10,5 +10,8 @@
                 <li class="nav-item">
                     <a class="nav-link active" href="#"><i class="bi bi-file-earmark-text me-2"></i>Faturamento</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="bi bi-file-earmark-text me-2"></i>Relatórios</a>
+                </li>
             </ul>
         </nav>
