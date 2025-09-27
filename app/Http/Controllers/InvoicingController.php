@@ -17,4 +17,9 @@ class InvoicingController extends Controller
     {
             return view('admin.index', ['page' => 'patients_invoicing']);
     }
+
+    public function patients_invoicing_details()
+    {
+            return view('admin.index', ['page' => 'patients_invoicing_details']);
+    }
 }
