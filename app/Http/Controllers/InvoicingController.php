@@ -11,4 +11,10 @@ class InvoicingController extends Controller
     {
         return view('invoicing');
     }
+
+
+    public function patients_invoicing()
+    {
+            return view('admin.index', ['page' => 'patients_invoicing']);
+    }
 }

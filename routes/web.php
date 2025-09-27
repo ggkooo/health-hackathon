@@ -7,3 +7,5 @@ Route::get('/', function () {
 });
 
 Route::get('/invoicing', [\App\Http\Controllers\InvoicingController::class, 'show'])->name('invoicing');
+
+Route::get('/patients_invoicing', [\App\Http\Controllers\InvoicingController::class, 'patients_invoicing'])->name('patients_invoicing');
